@@ -17,7 +17,7 @@ temp=r;
 while(r>0){
 	digit =r%10;
 	sum+=(pow(digit,size));
-	printf("digit %d\n",sum);
+	//printf("digit %d\n",sum);
 	r/=10;
 }
 
